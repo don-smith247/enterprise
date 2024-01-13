@@ -463,6 +463,13 @@ ul{
         background-size: contain;
         background-repeat: no-repeat;
     }
+    .all-and-all{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
     .you{
         width: 30px;
         height: 5px;
