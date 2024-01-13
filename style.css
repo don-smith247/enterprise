@@ -385,8 +385,8 @@ section{
     gap: 20px;
     padding-top: 40px;
 }
-footer{
-    height: 10vh;
+.footer{
+    height: 70vh;
 }
 .last-p{
     display: flex;
@@ -639,12 +639,12 @@ ul{
         flex-direction: column;
         align-items: center;
       }
-      section{
+      /* section{
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        overflow-x: hidden;
+        overflow-x: hidden; */
       }
       .vp{
         width: 220px;
