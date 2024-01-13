@@ -13,6 +13,12 @@ nav{
     align-items: center;
     padding-top: -100px;
 }
+.first-div{
+    background-image: url(./Coin/cera/grad/GRADIENT\ 1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 300px;
+}
 .first-div img{
     width: 200px;
 }
@@ -431,12 +437,45 @@ footer{
     margin: 3px;
     border-radius: 2px;
 
+
 }
 .all-ul{
     display: none;
 }
-
+.ttxt{
+    width: 400px;
+    padding-left: 80px;
+}
+.start{
+    margin-left: 120px;
+}
+ul{
+    display: none;
+}
 @media screen and (max-width: 950px){
+    .cn-m{
+        background-image: url(./Coin/cera/grad/gradient\ 5.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .you{
+        width: 30px;
+        height: 5px;
+        background-color: white;
+        margin: 3px;
+        border-radius: 2px;
+    }
+    .cn-m img{
+        width: 400px;
+    }
+    .cn-v{
+        background-image: url(./Coin/cera/grad/gradient\ \ 6.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .cn-v img{
+        width: 400px;
+    }
     .meme{
         display: block;
     }
@@ -452,7 +491,7 @@ footer{
     .toggle{
         display: flex;
     }
-    .all-ul{
+    ul{
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -566,10 +605,7 @@ footer{
       body{
         overflow-x: hidden;
       }
-      .img img{
-        width: 120vw;
-        padding-left: 70px;
-      }
+      
       .secc{
         display: flex;
         flex-direction: column;
@@ -580,10 +616,8 @@ footer{
       }
       .txt{
         width: 130vw;
-        position: absolute;
-        top: 400px;
-        left: -145px;
-        /* position: static; */
+        top: 200px;
+        
       }
       .wwp{
         width: 215px;
@@ -606,7 +640,10 @@ footer{
       .wp{
         width: 220px;
       }
+      .cera-3{
+         background-image: url(./Coin/cera/grad/gradient\ 10.png);
+         background-size: contain;
+         background-repeat: no-repeat;
+      }
+      
 }
-    
-
-
