@@ -330,13 +330,13 @@ section{
     width: 370px;
 }
 .sccc{
-    background-image: url(./bg.png);
+    background-image: url(./Coin/bg.png);
     background-size: contain;
     display: flex;
+    background-repeat: no-repeat;
     gap: 20px;
-    height: 150px;
-    padding-top: 30px;
-    margin-top: 60px;
+    height: 200px;
+    margin-top: 50px;
 }
 .jj{
     width: 150px;
@@ -451,6 +451,11 @@ footer{
 }
 ul{
     display: none;
+}
+.all-and-all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 @media screen and (max-width: 950px){
     .cn-m{
