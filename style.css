@@ -386,7 +386,7 @@ section{
     padding-top: 40px;
 }
 .footer{
-    height: 150vh;
+    height: 100vh;
 }
 .last-p{
     display: flex;
@@ -456,6 +456,16 @@ ul{
     display: flex;
     flex-direction: column;
     align-items: center;
+    display: none;
+    width: 300px;
+    height: 200px;
+    background-color: black;
+}
+.face-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
 }
 @media screen and (max-width: 950px){
     .cn-m{
@@ -463,13 +473,7 @@ ul{
         background-size: contain;
         background-repeat: no-repeat;
     }
-    .all-and-all{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        overflow-x: hidden;
-        overflow-y: hidden;
-    }
+    
     .you{
         width: 30px;
         height: 5px;
@@ -500,9 +504,7 @@ ul{
     .kkk{
         width: 30px;
     }
-    .toggle{
-        display: flex;
-    }
+   
     ul{
         display: flex;
         flex-direction: column;
@@ -639,13 +641,25 @@ ul{
         flex-direction: column;
         align-items: center;
       }
-      /* section{
+      .all-and-all{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        display: none;
+    }
+      .toggle{
+        display: flex;
+    }
+      section{
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        overflow-x: hidden; */
+        overflow-x: hidden;
       }
+      
       .vp{
         width: 220px;
       }
@@ -657,5 +671,6 @@ ul{
          background-size: contain;
          background-repeat: no-repeat;
       }
+      
       
 }
