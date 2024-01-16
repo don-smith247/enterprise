@@ -7,11 +7,39 @@ body{
     background-color: #170f34;
     color: white;
 }
+.sec-11{
+    display: flex;
+}
+.crop-1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 150px;
+}
+.gu{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(2, 2, 204);
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+.cr{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.crr{
+    width: 400px;
+    color: gray;
+}
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-top: -100px;
+}
+.crop img{
+    width: 850px;
 }
 .first-div{
     background-image: url(./Coin/cera/grad/GRADIENT\ 1.png);
@@ -272,7 +300,7 @@ section{
     gap: 25px;
 }
 .ty{
-    height: 45px;
+    height: 50px;
     width: 50px;
     color: white;
     background-color: gainsboro;
@@ -386,7 +414,7 @@ section{
     padding-top: 40px;
 }
 .footer{
-    height: 115vh;
+    height: 115nvh;
 }
 .last-p{
     display: flex;
@@ -469,13 +497,34 @@ ul{
     overflow-x: hidden;
     overflow-y: hidden;
 }
+.cn-m{
+        background-image: url(./Coin/cera/grad/gradient\ 5.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+.cn-v{
+        background-image: url(./Coin/cera/grad/gradient\ \ 6.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+
 @media screen and (max-width: 950px){
+    .sec-11{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .crop img{
+        width: 390px;
+    }
     .cn-m{
         background-image: url(./Coin/cera/grad/gradient\ 5.png);
         background-size: contain;
         background-repeat: no-repeat;
     }
-    
+    .crr{
+        width: 200px;
+    }
     .you{
         width: 30px;
         height: 5px;
