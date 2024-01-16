@@ -41,6 +41,12 @@ nav{
 .crop img{
     width: 850px;
 }
+.gggg{
+    justify-content: space-around;
+}
+nav{
+    align-items: center;
+}
 .first-div{
     background-image: url(./Coin/cera/grad/GRADIENT\ 1.png);
     background-size: contain;
@@ -49,6 +55,14 @@ nav{
 }
 .first-div img{
     width: 200px;
+}
+.ssign{
+    width: 150px;
+    height: 45px;
+    background-color: transparent;
+    border: white solid 1px;
+    border-radius: 10px;
+    color: white
 }
 /* .first-div{
     background-image: url(./Coin/cera/grad/GRADIENT\ 1.png);
@@ -568,13 +582,15 @@ ul{
     }
     .create{
         width: 150px;
-        height: 35px;
-        color: plum;
+        height: 34px;
+        color: white;
         border-radius: 5px;
-        color: black;
         display: flex;
         align-items: center;
-        padding-left: 10px;
+        padding-left: 30px;
+        background-color: transparent;
+        border: solid 1px white;
+        gap: 10px;
     }
     nav{
         display: flex;
@@ -699,6 +715,7 @@ ul{
         overflow-x: hidden;
         overflow-y: hidden;
         display: none;
+        transition: 0.4ms;
     }
       .toggle{
         display: flex;
